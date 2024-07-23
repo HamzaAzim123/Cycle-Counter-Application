@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cycle Counting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cycle Counting System</h1>
+    </header>
+    <main>
+        <section id="input-section">
+            <h2>Input Cycle Count</h2>
+            <form id="cycle-count-form">
+                <label for="item">Item:</label>
+                <input type="text" id="item" name="item" required>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="view-section">
+            <h2>View Cycle Counts</h2>
+            <table id="cycle-count-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
